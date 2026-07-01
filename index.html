@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oregon Studio Group | Luxury Professional Photography Medford, OR</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        luxuryGold: '#D4AF37',
+                        luxuryDark: '#0B0C10',
+                        luxuryGray: '#1F2833',
+                    },
+                    fontFamily: {
+                        serif: ['Playfair Display', 'Georgia', 'serif'],
+                        sans: ['Montserrat', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { font-family: 'Montserrat', sans-serif; background-color: #0B0C10; color: #EAEAEA; }
+        .font-luxury { font-family: 'Playfair Display', serif; }
+    </style>
+</head>
+<body class="antialiased selection:bg-luxuryGold selection:text-black">
+
+    <header class="fixed top-0 left-0 w-full z-50 bg-luxuryDark/95 backdrop-blur-md border-b border-luxuryGold/10 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-24 flex items-center justify-between">
+            <a href="#" class="flex items-center space-x-3 group">
+                <img src="https://oregonstudiogroup.net/wp-content/uploads/2025/04/osg-gold-camera-header-img.avif" alt="Oregon Studio Group Logo" class="h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-105">
+                <span class="font-luxury text-xl md:text-2xl tracking-widest text-white group-hover:text-luxuryGold transition-colors">OREGON STUDIO GROUP</span>
+            </a>
+
+            <nav class="hidden md:flex space-x-8 text-xs font-semibold tracking-widest uppercase">
+                <a href="#" class="text-luxuryGold hover:text-white transition-colors duration-200">Home</a>
+                <a href="#about" class="text-gray-400 hover:text-luxuryGold transition-colors duration-200">About Us</a>
+                <a href="#services" class="text-gray-400 hover:text-luxuryGold transition-colors duration-200">Services</a>
+                <a href="#contact" class="text-gray-400 hover:text-luxuryGold transition-colors duration-200">Contact Us</a>
+            </nav>
+
+            <button id="mobile-menu-btn" class="md:hidden text-white focus:outline-none" aria-label="Toggle Menu">
+                <i class="fa-solid fa-bars text-2xl"></i>
+            </button>
+        </div>
+
+        <div id="mobile-menu" class="hidden md:hidden bg-luxuryDark border-b border-luxuryGold/20 px-6 py-6 space-y-4 text-center tracking-widest uppercase text-sm">
+            <a href="#" class="block text-luxuryGold py-2">Home</a>
+            <a href="#about" class="block text-gray-300 hover:text-luxuryGold py-2">About Us</a>
+            <a href="#services" class="block text-gray-300 hover:text-luxuryGold py-2">Services</a>
+            <a href="#contact" class="block text-gray-300 hover:text-luxuryGold py-2">Contact Us</a>
+        </div>
+    </header>
+
+    <section class="relative min-h-screen flex items-center pt-24 overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="https://www.canonoutsideofauto.ca/wp-content/uploads/2025/06/golden-hour-landscape-photographer.jpeg" alt="Luxury Photography Hero Image" class="w-full h-full object-cover object-center opacity-40 transform scale-105 animate-[pulse_8s_infinite]">
+            <div class="absolute inset-0 bg-gradient-to-r from-luxuryDark via-luxuryDark/80 to-transparent"></div>
+        </div>
+
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full py-12">
+            <div class="max-w-2xl lg:max-w-3xl">
+                <span class="text-luxuryGold text-xs font-bold tracking-[0.3em] uppercase block mb-4">Capturing Stories With Precision</span>
+                <h1 class="font-luxury text-4xl sm:text-5xl lg:text-7xl font-bold tracking-tight text-white leading-none mb-6">
+                    Every Image Tells <br><span class="text-luxuryGold">Your Story.</span>
+                </h1>
+                <p class="text-gray-300 text-base sm:text-lg max-w-xl leading-relaxed mb-10">
+                    At Oregon Studio Photography, we bring passion and precision to every click. Whether it’s a powerful headshot, a timeless portrait, or a bold commercial campaign, we sculpt lighting and scenery into fine-art keepsakes.
+                </p>
+                <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                    <a href="https://oregonstudiogroup.net/" class="inline-block text-center bg-luxuryGold hover:bg-white text-black font-semibold text-xs tracking-widest uppercase px-8 py-4 transition-colors duration-300">
+                        Explore Website
+                    </a>
+                    <a href="#contact" class="inline-block text-center border border-white/20 hover:border-luxuryGold bg-transparent text-white hover:text-luxuryGold font-semibold text-xs tracking-widest uppercase px-8 py-4 transition-colors duration-300">
+                        Book A Session
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-24 bg-luxuryDark relative border-t border-luxuryGold/5">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                <div class="lg:col-span-5 relative">
+                    <div class="border border-luxuryGold/30 absolute -inset-4 transform translate-x-2 translate-y-2 z-0"></div>
+                    <img src="https://i.pinimg.com/736x/d4/5a/c1/d45ac195b056b4d7a367ed4b247163be.jpg" alt="About John Neilson Studio" class="w-full h-[450px] object-cover relative z-10 filter grayscale hover:grayscale-0 transition-all duration-700">
+                </div>
+                <div class="lg:col-span-7 space-y-6">
+                    <span class="text-luxuryGold text-xs font-bold tracking-widest uppercase block">About Oregon Studio Group</span>
+                    <h2 class="font-luxury text-3xl sm:text-4xl font-bold text-white tracking-wide">Over 25 Years of Capturing Pure Photographic Masterpieces</h2>
+                    <p class="text-gray-400 leading-relaxed">
+                        Led by premier Medford photographer John Neilson, Oregon Studio Group LLC blends decades of technical expertise with elite creative visions. Our close-knit crew—featuring master lighting technicians, makeup artists, and art directors—is completely dedicated to excellence, ensuring every single milestone radiates with authentic life and prestige.
+                    </p>
+                    <p class="text-gray-400 leading-relaxed">
+                        We prioritize deep communication with our clients, treating each campaign and personal session as custom fine-art documentation. Step in front of our lenses to experience the most empowering and beautifully structured photoshoot experience in Southern Oregon.
+                    </p>
+                    <div class="pt-4">
+                        <a href="https://oregonstudiogroup.net/#about" target="_blank" class="inline-flex items-center text-xs font-bold tracking-widest uppercase text-luxuryGold hover:text-white transition-colors">
+                            Learn More At Our Official Site <i class="fa-solid fa-arrow-right ml-2 text-sm"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-24 bg-luxuryGray/30 border-t border-luxuryGold/5">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <span class="text-luxuryGold text-xs font-bold tracking-widest uppercase block mb-3">Our Specialties</span>
+                <h2 class="font-luxury text-3xl sm:text-4xl font-bold text-white tracking-wide">Studio Photography Services</h2>
+                <div class="h-[1px] w-24 bg-luxuryGold mx-auto mt-4"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-luxuryDark border border-white/5 hover:border-luxuryGold/40 p-4 transition-all duration-300 group">
+                    <div class="overflow-hidden mb-4 h-64">
+                        <img src="https://i.pinimg.com/736x/d4/5a/c1/d45ac195b056b4d7a367ed4b247163be.jpg" alt="Corporate Headshots Service" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                    </div>
+                    <h3 class="font-luxury text-lg font-semibold text-white group-hover:text-luxuryGold transition-colors mb-2">Headshots</h3>
+                    <p class="text-gray-400 text-xs leading-relaxed">Powerful, high-end professional headshots tailored specifically to establish trust and executive prestige for your brand portfolio.</p>
+                </div>
+
+                <div class="bg-luxuryDark border border-white/5 hover:border-luxuryGold/40 p-4 transition-all duration-300 group">
+                    <div class="overflow-hidden mb-4 h-64">
+                        <img src="https://www.canonoutsideofauto.ca/wp-content/uploads/2025/06/golden-hour-landscape-photographer.jpeg" alt="Landscape & Creative Photography" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                    </div>
+                    <h3 class="font-luxury text-lg font-semibold text-white group-hover:text-luxuryGold transition-colors mb-2">Photography</h3>
+                    <p class="text-gray-400 text-xs leading-relaxed">Capturing raw artistic landscapes, natural lighting portraits, and highly detailed fine-art configurations across Oregon's beautiful backdrops.</p>
+                </div>
+
+                <div class="bg-luxuryDark border border-white/5 hover:border-luxuryGold/40 p-4 transition-all duration-300 group">
+                    <div class="overflow-hidden mb-4 h-64">
+                        <img src="https://www.wimarys.com/wp-content/uploads/2023/12/event-photography-tips.jpg" alt="Luxury Event Photography" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                    </div>
+                    <h3 class="font-luxury text-lg font-semibold text-white group-hover:text-luxuryGold transition-colors mb-2">Event Photography</h3>
+                    <p class="text-gray-400 text-xs leading-relaxed">Comprehensive luxury wedding timelines and vibrant dynamic tracking for elite business, community, and fashion events.</p>
+                </div>
+
+                <div class="bg-luxuryDark border border-white/5 hover:border-luxuryGold/40 p-4 transition-all duration-300 group">
+                    <div class="overflow-hidden mb-4 h-64">
+                        <img src="https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/63461/cor%2008-07-2024/photos-de-produits.jpg" alt="Commercial Product Photography" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                    </div>
+                    <h3 class="font-luxury text-lg font-semibold text-white group-hover:text-luxuryGold transition-colors mb-2">Product Photography</h3>
+                    <p class="text-gray-400 text-xs leading-relaxed">Crisp, bold commercial imagery designed for magazines, advertising arrays, e-commerce spaces, and distinct luxury item highlights.</p>
+                </div>
+            </div>
+
+            <div class="text-center mt-12">
+                <a href="https://oregonstudiogroup.net/#services" class="inline-block bg-transparent hover:bg-luxuryGold border border-luxuryGold text-luxuryGold hover:text-black font-semibold text-xs tracking-widest uppercase px-10 py-4 transition-colors duration-300">
+                    Explore Services
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 bg-luxuryDark relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <span class="text-luxuryGold text-xs font-bold tracking-widest uppercase block mb-3">Client Experiences</span>
+                <h2 class="font-luxury text-3xl sm:text-4xl font-bold text-white tracking-wide">From Google Reviews</h2>
+                <div class="h-[1px] w-24 bg-luxuryGold mx-auto mt-4"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-luxuryGray/20 border border-white/5 p-8 relative flex flex-col justify-between">
+                    <div>
+                        <div class="flex text-luxuryGold space-x-1 mb-4 text-sm">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-gray-300 italic text-sm leading-relaxed">
+                            "Every woman deserves a day like the one I had with John in Medford. It was probably the most magical, empowering, and fun experiences I have ever had. From elegant fashion to sexy boudoir, this place does everything! You'll be a queen for the day!"
+                        </p>
+                    </div>
+                    <div class="mt-6 border-t border-white/10 pt-4 flex items-center justify-between">
+                        <span class="font-luxury text-sm font-semibold text-white">Juliette N.</span>
+                        <span class="text-xs text-luxuryGold tracking-widest uppercase font-bold">Verified Google Client</span>
+                    </div>
+                </div>
+
+                <div class="bg-luxuryGray/20 border border-white/5 p-8 relative flex flex-col justify-between">
+                    <div>
+                        <div class="flex text-luxuryGold space-x-1 mb-4 text-sm">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-gray-300 italic text-sm leading-relaxed">
+                            "My employer was so impressed with the quality of the new headshots I needed for my new position at my job. John did such a great job helping me pose and choose my best, professional photos. Highly recommend!"
+                        </p>
+                    </div>
+                    <div class="mt-6 border-t border-white/10 pt-4 flex items-center justify-between">
+                        <span class="font-luxury text-sm font-semibold text-white">Amber W.</span>
+                        <span class="text-xs text-luxuryGold tracking-widest uppercase font-bold">Verified Corporate Client</span>
+                    </div>
+                </div>
+
+                <div class="bg-luxuryGray/20 border border-white/5 p-8 relative flex flex-col justify-between">
+                    <div>
+                        <div class="flex text-luxuryGold space-x-1 mb-4 text-sm">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-gray-300 italic text-sm leading-relaxed">
+                            "Picking John to shoot my wedding photos was the best decision I could have made. He is so uniquely artistic and friendly. Him and his team made us feel completely comfortable in front of the camera."
+                        </p>
+                    </div>
+                    <div class="mt-6 border-t border-white/10 pt-4 flex items-center justify-between">
+                        <span class="font-luxury text-sm font-semibold text-white">Tess M.</span>
+                        <span class="text-xs text-luxuryGold tracking-widest uppercase font-bold">Verified Wedding Client</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-12">
+                <a href="https://g.page/r/CY1L2eDHvctTEBM/" target="_blank" class="text-xs text-gray-400 hover:text-luxuryGold underline tracking-widest uppercase font-semibold">
+                    View More On Google Map Listing
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 bg-luxuryGray/30 border-t border-luxuryGold/5">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <span class="text-luxuryGold text-xs font-bold tracking-widest uppercase block mb-3">Answers For You</span>
+                <h2 class="font-luxury text-3xl font-bold text-white tracking-wide">Frequently Asked Questions</h2>
+                <div class="h-[1px] w-24 bg-luxuryGold mx-auto mt-4"></div>
+            </div>
+
+            <div class="space-y-4">
+                <div class="bg-luxuryDark border border-white/5">
+                    <button class="faq-toggle w-full px-6 py-5 flex items-center justify-between text-left focus:outline-none">
+                        <span class="font-luxury font-medium text-white text-base sm:text-lg">What primary photography styles do you identify with?</span>
+                        <i class="fa-solid fa-chevron-down text-luxuryGold text-sm transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-5 text-sm text-gray-400 leading-relaxed">
+                        Oregon Studio Group heavily relies on contemporary, natural light structural capturing, combined with exquisite traditional composition alignments to deliver versatile luxury finishes.
+                    </div>
+                </div>
+
+                <div class="bg-luxuryDark border border-white/5">
+                    <button class="faq-toggle w-full px-6 py-5 flex items-center justify-between text-left focus:outline-none">
+                        <span class="font-luxury font-medium text-white text-base sm:text-lg">What assets are routinely included in your starting package?</span>
+                        <i class="fa-solid fa-chevron-down text-luxuryGold text-sm transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-5 text-sm text-gray-400 leading-relaxed">
+                        Our packages typically provide a 2nd camera shooter option, single dedicated day assignments, high-resolution digital media archives, completely transparent proof review channels, and private online tracking galleries.
+                    </div>
+                </div>
+
+                <div class="bg-luxuryDark border border-white/5">
+                    <button class="faq-toggle w-full px-6 py-5 flex items-center justify-between text-left focus:outline-none">
+                        <span class="font-luxury font-medium text-white text-base sm:text-lg">Are you willing to travel outside of Medford, OR for assignments?</span>
+                        <i class="fa-solid fa-chevron-down text-luxuryGold text-sm transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-5 text-sm text-gray-400 leading-relaxed">
+                        Yes! While our central corporate headquarters is anchored in Medford, Oregon, we regularly mobilize our specialized equipment arrays for travel across destination wedding venues, commercial assignments, and outdoor portrait layouts globally.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-24 bg-luxuryDark border-t border-luxuryGold/5">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <div class="space-y-8">
+                    <div>
+                        <span class="text-luxuryGold text-xs font-bold tracking-widest uppercase block mb-3">Reservations</span>
+                        <h2 class="font-luxury text-3xl sm:text-4xl font-bold text-white tracking-wide">Initiate Your Campaign</h2>
+                        <p class="text-gray-400 mt-4 leading-relaxed text-sm">
+                            Connect directly with John Neilson's support line to acquire explicit digital asset pricing breakdowns, consultation availability structural arrays, or to map out specific conceptual layout styles.
+                        </p>
+                    </div>
+
+                    <div class="space-y-4 text-sm text-gray-300">
+                        <div class="flex items-start space-x-4">
+                            <div class="text-luxuryGold mt-1"><i class="fa-solid fa-location-dot text-lg"></i></div>
+                            <div>
+                                <h4 class="font-semibold text-white tracking-wider text-xs uppercase mb-1">Studio Address</h4>
+                                <p class="text-gray-400">155 Oxford Pl, Medford, OR 97504, United States</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start space-x-4">
+                            <div class="text-luxuryGold mt-1"><i class="fa-solid fa-phone text-lg"></i></div>
+                            <div>
+                                <h4 class="font-semibold text-white tracking-wider text-xs uppercase mb-1">Direct Call Wire</h4>
+                                <p class="text-gray-400">(541) 690-2710</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start space-x-4">
+                            <div class="text-luxuryGold mt-1"><i class="fa-solid fa-envelope text-lg"></i></div>
+                            <div>
+                                <h4 class="font-semibold text-white tracking-wider text-xs uppercase mb-1">Secure Email System</h4>
+                                <a href="mailto:CEOOSG@GMAIL.COM" class="text-luxuryGold hover:underline text-sm uppercase">CEOOSG@GMAIL.COM</a>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start space-x-4">
+                            <div class="text-luxuryGold mt-1"><i class="fa-solid fa-clock text-lg"></i></div>
+                            <div>
+                                <h4 class="font-semibold text-white tracking-wider text-xs uppercase mb-1">Working Studio Hours</h4>
+                                <p class="text-gray-400">Monday - Friday: 8:30AM - 5:30PM</p>
+                                <p class="text-gray-500 text-xs mt-1">Saturday - Sunday: Closed / By Appointment Only</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pt-2">
+                        <a href="https://www.google.com/search?kgmid=/g/11ghq_v1zh" target="_blank" class="inline-flex items-center space-x-2 bg-luxuryGray/40 border border-white/10 px-4 py-2 hover:border-luxuryGold transition-colors text-xs tracking-wider uppercase text-white">
+                            <i class="fa-solid fa-share-nodes text-luxuryGold"></i> <span>View Official Google Knowledge Graph</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="w-full h-[400px] lg:h-full min-h-[350px] border border-luxuryGold/20 relative">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1685.3085192407493!2d-122.81365046007973!3d42.33064984628157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54cf7a8f0b240001%3A0x53cbbdc7e0d94b8d!2sOregon%20Studio%20Group!5e1!3m2!1sen!2s!4v1782945259472!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-black border-t border-white/10 text-xs tracking-widest text-gray-500 py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-12">
+            <div class="space-y-4">
+                <h3 class="font-luxury text-sm tracking-widest text-white uppercase">Oregon Studio Group</h3>
+                <p class="text-gray-400 normal-case tracking-normal text-xs leading-relaxed max-w-sm">
+                    Luxury commercial, headshot, and event wedding documentation packages executed natively throughout the regional Pacific Northwest landscapes.
+                </p>
+                <div class="flex space-x-4 pt-2">
+                    <a href="https://oregonstudiogroup.net/" target="_blank" class="text-gray-400 hover:text-luxuryGold transition-colors"><i class="fa-solid fa-globe text-base"></i></a>
+                    <a href="https://g.page/r/CY1L2eDHvctTEBM/" target="_blank" class="text-gray-400 hover:text-luxuryGold transition-colors"><i class="fa-solid fa-map-location-dot text-base"></i></a>
+                </div>
+            </div>
+
+            <div class="space-y-4">
+                <h3 class="font-semibold text-white uppercase text-xs tracking-[0.2em]">Quick Links</h3>
+                <ul class="space-y-2 uppercase text-[11px]">
+                    <li><a href="#" class="hover:text-luxuryGold transition-colors">Home</a></li>
+                    <li><a href="#about" class="hover:text-luxuryGold transition-colors">About Us</a></li>
+                    <li><a href="#services" class="hover:text-luxuryGold transition-colors">Services</a></li>
+                    <li><a href="#contact" class="hover:text-luxuryGold transition-colors">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="space-y-4">
+                <h3 class="font-semibold text-white uppercase text-xs tracking-[0.2em]">Contact Information</h3>
+                <ul class="space-y-2 text-gray-400 normal-case tracking-normal text-xs">
+                    <li class="flex items-center space-x-2"><i class="fa-solid fa-location-dot text-luxuryGold text-xs"></i> <span>155 Oxford Pl, Medford, OR 97504 United States</span></li>
+                    <li class="flex items-center space-x-2"><i class="fa-solid fa-phone text-luxuryGold text-xs"></i> <span>(541) 690-2710</span></li>
+                    <li class="flex items-center space-x-2"><i class="fa-solid fa-envelope text-luxuryGold text-xs"></i> <span class="uppercase">CEOOSG@GMAIL.COM</span></li>
+                    <li class="flex items-center space-x-2"><i class="fa-solid fa-clock text-luxuryGold text-xs"></i> <span>Mon - Fri: 8:30AM - 5:30PM</span></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 pt-8 border-t border-white/5 text-center flex flex-col sm:flex-row items-center justify-between space-y-4 sm:space-y-0 text-[11px]">
+            <p>&copy; 2026 The Ranking Geeks. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Navigation Drawer Toggle Handler Logic
+        const menuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+        mobileMenu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => mobileMenu.classList.add('hidden'));
+        });
+
+        // FAQ Collapse Toggle Interactive Mechanics
+        document.querySelectorAll('.faq-toggle').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const content = btn.nextElementSibling;
+                const icon = btn.querySelector('i');
+                
+                content.classList.toggle('hidden');
+                icon.classList.toggle('rotate-180');
+            });
+        });
+    </script>
+</body>
+</html>
